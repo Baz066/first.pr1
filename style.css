@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #011c40;
+    background-repeat: repeat;
+
+}
+.login-box{display: flex;
+justify-content: center;
+flex-direction: column;
+width: 440px;
+height: 480px;
+padding: 30px;
+ 
+}
+.log-header{
+    text-align: center;
+    margin: 20px 0 40px 0;
+
+}
+.log-header header{
+    color: #9ce3d5;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+header:hover{
+    color: #317060;
+    
+}
+
+
+
+
+
+.in-bx .inp-fild{
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: .5s ;
+
+}
+::placeholder{
+    font-weight: 500;
+    color: #024059;
+
+}
+.inp-fild:focus{ 
+width: 110%;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #04bfbf;
+}
+
+#check{
+    margin-right: 10px;
+
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+section a{
+    color: #024059;
+
+}
+.input-sub{
+    position: relative;
+}
+.btn-sub{
+    width: 100%;
+    height: 60px;
+    background: #9ce3d5;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.sin-up-lnk a{
+    text-decoration: none;
+    color: #0396a6;
+}
+.sin-up-lnk a:hover{
+    text-decoration: underline;
+    
+}
+.input-sub label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #04bfbf;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.btn-sub label{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+    
+}
+label:hover{
+    color: #024059;
+    transition: 0.2s ease;
+    text-decoration: underline;
+ 
+}
+.btn-sub:hover{
+background: #555;
+transform: scale(1.05,1);
+}
+.inp-fild:hover{
+    background: #0396a6;
+}
+p{
+    color: #9ce3d5;
+}
+label:hover{
+    cursor: pointer;
+    color: #34ffd3;
+}
+a:hover{
+    color: #34ffd3;
+}
